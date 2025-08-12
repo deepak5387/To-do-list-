@@ -1,0 +1,209 @@
+Build a fully functional, shareable To-Do List web app with the following requirements:
+
+Core Functionalities:
+
+Add a new task with fields:
+
+Task title (required)
+
+Description (optional)
+
+Due date (date picker)
+
+Priority (Low, Medium, High)
+
+Edit an existing task.
+
+Delete a task.
+
+Mark a task as completed (with visual strikethrough and status change).
+
+Filter tasks by:
+
+Status (All, Pending, Completed)
+
+Priority (Low, Medium, High)
+
+Due date (Today, This Week, Overdue)
+
+Search tasks by keyword in title or description.
+
+Sort tasks by due date or priority.
+
+User Experience & Design:
+
+Minimal, clean, and mobile-friendly UI.
+
+Add a “+ Add Task” button fixed at the bottom-right corner on mobile and top-right on desktop.
+
+Color coding:
+
+High priority → Red highlight
+
+Medium priority → Orange highlight
+
+Low priority → Green highlight
+
+Completed tasks should move to the bottom of the list.
+
+Include a progress bar showing % of tasks completed.
+
+Extra Features:
+
+Save all tasks in local storage so they persist on page reload.
+
+Light/Dark mode toggle.
+
+Responsive design for mobile, tablet, and desktop.
+
+Shareable URL for the app without requiring login.
+
+Tech Stack (if needed):
+
+HTML, CSS, JavaScript (Vanilla or React)
+
+Use local storage for saving data
+
+No backend required
+
+Goal:
+
+Create a single-page app that can be hosted (e.g., CodeSandbox, Netlify, Vercel) and easily shared as a public URL.
+
+Ensure fast load time, smooth animations, and intuitive interactions.
+
+If you want, I can now take this prompt and tweak it specifically for CodeSandbox or Replit so you get a working To-Do List app link you can just submit for the job. That way you won’t have to manually host it.
+
+Do you want me to tailor it for instant online hosting?
+
+
+
+
+
+
+
+
+You said:
+give me more funcaiotnlies and add the deisagn hsould be classy and easy ot use and now give me new prompt
+
+
+ChatGPT said:
+Alright — let’s upgrade your prompt so the To-Do List app not only works perfectly but also looks classy, professional, and modern, while showing off that you thought about extra features that impress hiring managers.
+
+Here’s your enhanced prompt:
+
+Prompt:
+
+Build a fully functional, modern, and classy To-Do List web application with the following requirements:
+
+Core Functionalities:
+
+Add a new task with fields:
+
+Task title (required)
+
+Description/Notes (optional, multi-line)
+
+Due date (calendar date picker)
+
+Priority (Low, Medium, High, Critical)
+
+Category/Tag (Work, Personal, Shopping, Custom)
+
+Edit existing tasks.
+
+Delete tasks with a confirmation prompt.
+
+Mark tasks as completed (strike-through + checkmark animation).
+
+Undo last action (for accidental deletions/completions).
+
+Filter tasks by:
+
+Status (All, Pending, Completed, Overdue)
+
+Priority level
+
+Category/Tag
+
+Due date range (Today, This Week, Custom Range)
+
+Search tasks by title or description.
+
+Sort tasks by:
+
+Due date (earliest → latest)
+
+Priority (highest → lowest)
+
+Recently added
+
+Progress tracker (progress bar showing % completed + motivational text).
+
+Persistent storage via local storage so tasks remain after refresh.
+
+Advanced & “Wow Factor” Features:
+
+Recurring Tasks: Option to repeat daily, weekly, or monthly.
+
+Drag-and-drop reordering of tasks within lists.
+
+Quick Add (press Enter to add instantly without filling all fields).
+
+Overdue Alerts: Automatically highlight overdue tasks in red.
+
+Daily Summary View: Show only today’s tasks in a special tab.
+
+Export/Import task list as JSON or CSV.
+
+PWA (Progressive Web App) support so it can be installed on phones/desktops.
+
+Optional sound notification for tasks due today.
+
+Design & User Experience:
+
+Minimalist yet classy design with smooth animations.
+
+Color palette: soft neutral background (off-white/cream or dark grey in dark mode) with accent colors for priority tags.
+
+Typography: Clean, modern font (e.g., Inter, Poppins).
+
+Layout:
+
+Left sidebar (categories, filters)
+
+Main area (task list)
+
+Top bar (search, sort, settings)
+
+Floating “+ Add Task” button (bottom-right on mobile, top-right on desktop).
+
+Priority colors:
+
+Critical → Red
+
+High → Orange
+
+Medium → Yellow
+
+Low → Green
+
+Completed tasks automatically collapse or move to a “Completed” section.
+
+Light/Dark mode toggle in settings.
+
+Technical Requirements:
+
+Built with HTML, CSS, JavaScript (Vanilla or React).
+
+Fully responsive (mobile, tablet, desktop).
+
+Local storage for persistence.
+
+Host-ready (Netlify, Vercel, CodeSandbox) with a shareable public URL.
+
+Optimized for fast load time and smooth performance.
+
+Goal:
+
+Deliver a modern, elegant, and feature-rich To-Do List app that is intuitive, fast, and visually appealing, showcasing thoughtful UX and product design.
